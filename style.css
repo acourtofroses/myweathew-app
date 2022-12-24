@@ -1,0 +1,82 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 120px;
+  background: linear-gradient(
+    90deg,
+    rgb(35, 69, 47) 21%,
+    rgb(193, 58, 35) 100%
+  );
+}
+h1,
+h2 {
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+}
+h2 {
+  color: white;
+  font-size: 30px;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 6px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 20px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 40px;
+  background: linear-gradient(
+    90deg,
+    rgb(35, 69, 47) 21%,
+    rgb(193, 58, 35) 100%
+  );
+  color: aliceblue;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20 px auto;
+  border: none;
+  transition: all 200ms ease-in-out;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+  color: #623712;
+  background: aliceblue;
+  font-size: 25px;
+  cursor: pointer;
+}
+.more {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 20 auto;
+  font-weight: bold;
+}
+.more:hover {
+  text-decoration: underline;
+  font-size: 20px;
+  cursor: pointer;
+}
+.smth {
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px;
+  font-size: 18px;
+  color: white;
+}
